@@ -9,3 +9,4 @@ enablePlugins(ScalaJSBundlerPlugin)
 scalaJSUseMainModuleInitializer := true
 
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1"
+npmDependencies in Compile += "morphdom" -> "latest"
